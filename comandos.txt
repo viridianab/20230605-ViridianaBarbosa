@@ -1,0 +1,26 @@
+Comandos utilizados
+
+
+mkdir 20230605-ViridianaBarbosa
+cd 20230605-ViridianaBarbosa
+git init
+touch comandos.txt main.js index.html
+git add .
+git commit -m "commit 01 de ViridianaBarbosa"
+git branch -M main
+git remote add origin https://github.com/viridianab/20230605-ViridianaBarbosa.git
+git push -u origin main
+git branch feature
+git checkout feature
+mkdir Hardware Software SeguridadInformatica
+touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+git add .
+git commit -m "commit 02 de ViridianaBarbosa"
+git push origin feature
+git checkout main
+mv main.js resumenHardware.txt
+mv index.html resumenSoftware.txt
+history
+git add .
+git commit -m "commit 03 de ViridianaBarbosa"
+git push origin main
